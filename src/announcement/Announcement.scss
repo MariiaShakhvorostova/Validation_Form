@@ -1,0 +1,169 @@
+.announcement {
+  padding: 2rem;
+  width: 500px;
+  margin-right: 150px;
+  text-align: left;
+  margin-top: 4rem;
+
+  .detail-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 141px;
+    height: 40px;
+    border-radius: 10px;
+    opacity: 0px;
+    background: rgb(66, 82, 209);
+  }
+
+  h1 {
+    color: rgba(255, 52, 89, 1);
+    font-size: 77px;
+    font-weight: 800;
+    line-height: 94.33px;
+    text-align: left;
+    font-family: "Gilroy-Bold", sans-serif;
+  }
+
+  .img_h2_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: start;
+  }
+
+  .middle-p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.64px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+  }
+
+  p {
+    margin: 1rem 0;
+  }
+
+  .author {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    padding-top: 3rem;
+    p {
+      margin: 0;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 19.2px;
+      text-align: left;
+      font-family: "Gilroy-Regular", sans-serif;
+    }
+
+    img {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      margin-right: 1rem;
+    }
+
+    h3 {
+      margin: 0;
+      span {
+        color: rgb(72, 72, 170);
+      }
+    }
+  }
+
+  .bonus {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+
+    img {
+      width: 30px;
+      height: 30px;
+      margin-right: 36px;
+    }
+    p {
+      margin: 0;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 19.2px;
+      text-align: left;
+      font-family: "Gilroy-Regular", sans-serif;
+    }
+
+    p span {
+      font-family: "Gilroy-Bold", sans-serif;
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 17.76px;
+      text-align: left;
+    }
+  }
+}
+
+@media (max-width: 1570px) {
+  .announcement {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1030px) {
+  .announcement h1 {
+    color: rgb(255, 52, 89);
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .announcement .middle-p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 990px) {
+  .announcement .detail-item {
+    margin-left: 150px;
+    margin-bottom: 20px;
+  }
+
+  .announcement {
+    margin-top: 20px;
+  }
+
+  .middle-p {
+    text-align: center;
+  }
+
+  .announcement .author {
+    position: absolute;
+    bottom: -20px;
+    margin-left: 40px;
+  }
+
+  .announcement .bonus {
+    position: absolute;
+    bottom: 80px;
+    margin-left: 40px;
+  }
+
+  .announcement .img_h2_container {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .announcement {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .announcement {
+    margin-left: 50px;
+  }
+}

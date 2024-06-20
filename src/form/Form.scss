@@ -1,0 +1,140 @@
+.registration-form {
+  background: rgba(48, 58, 83, 1);
+  padding: 3rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  height: 474px;
+
+  .offer {
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.99px;
+    text-align: center;
+    margin-bottom: 10px;
+
+    span {
+      color: rgba(255, 52, 89, 1);
+    }
+  }
+
+  .form-group {
+    margin-bottom: 1rem;
+
+    input,
+    .react-tel-input input {
+      width: 100%;
+      padding: 0.75rem;
+      border: none;
+      border-radius: 5px;
+      margin-top: 0.5rem;
+      background: rgba(39, 45, 61, 1);
+      padding-left: 3rem;
+      color: rgba(215, 215, 215, 1);
+      height: 51px;
+
+      &::placeholder {
+        font-family: "Gilroy-Light", sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: rgba(215, 215, 215, 1);
+      }
+    }
+
+    .react-tel-input .flag-dropdown {
+      background: rgba(39, 45, 61, 1);
+      border: transparent;
+    }
+
+    .react-tel-input .country-list .country {
+      color: rgba(215, 215, 215, 1);
+      background: rgba(39, 45, 61, 1);
+    }
+
+    .error {
+      color: #ff4d4f;
+      font-size: 0.875rem;
+      margin-top: 0.5rem;
+    }
+  }
+
+  button {
+    width: 100%;
+    padding: 0.75rem;
+    background: rgba(255, 52, 89, 1);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1rem;
+
+    &:hover {
+      background: rgba(0, 72, 255, 1);
+    }
+  }
+
+  .warn {
+    font-family: "Gilroy-Light", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17.88px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+
+    span {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  .registration-form {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .registration-form {
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .registration-form {
+    margin: 0 40px;
+  }
+}
+
+@media (max-width: 990px) {
+  .registration-form {
+    margin: 0 60px;
+    margin-bottom: 150px;
+  }
+}
+
+@media (max-width: 800px) {
+  .registration-form {
+    margin: 0 80px;
+
+    margin-bottom: 180px;
+  }
+}
+
+@media (max-width: 600px) {
+  .registration-form {
+    margin: 0 100px;
+    margin-left: 110px;
+    margin-bottom: 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .registration-form {
+    margin: 0 120px;
+  }
+}
